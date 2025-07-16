@@ -6,7 +6,8 @@ const basePath = `/${repo}`
 
 const nextConfig: NextConfig = {
   assetPrefix,
-  basePath
+  basePath,
+  output: 'export',
 };
 
 export default nextConfig;
