@@ -5,6 +5,6 @@ export default function Home() {
     console.log(res);
   })
   return (
-    <div></div>
+    <div>Demo</div>
   );
 }
