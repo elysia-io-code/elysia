@@ -7,7 +7,10 @@ const basePath = `/${repo}`
 const nextConfig: NextConfig = {
   assetPrefix,
   basePath,
-  output: 'export',
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
