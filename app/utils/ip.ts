@@ -17,3 +17,7 @@ export async function getLocation() {
     console.log(error);
   }
 }
+
+export function getWeather() {
+  return axios.get("https://weather.cma.cn/api/weather/view").then((res) => res.data);
+}
